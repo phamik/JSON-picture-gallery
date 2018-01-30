@@ -1,0 +1,36 @@
+.grid-container {
+    background-color: azure;
+}
+
+.picture-row {
+    align-content: center;
+}
+
+.img-container { 
+    margin: 10px !important;
+    display: inline-block !important;
+    border: none;
+    min-height: 150px !important;
+    min-width: 170px !important;
+    max-height: 150px !important;
+    max-width: 170px !important;
+ 
+}
+
+
+.picture-border {
+    border: 2px solid red;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+
+.dropdown {
+    border: none;
+}
+.active {
+    background:#990000;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
